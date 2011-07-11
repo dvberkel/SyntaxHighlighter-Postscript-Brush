@@ -6,7 +6,7 @@ SyntaxHighlighter.brushes.Postscript = function()
 		{ regex: /%.*$/g,                                       css: 'comments' }, // comments
 		{ regex: /\([^)]*\)/,                                   css: 'string' },   // string
 		{ regex: /\b\d+(\.\d+)?\b/g,                            css: 'value' },    // numbers
-		{ regex: /\/\w+/g,                                      css: 'constants'}, // symbols
+		{ regex: /\/\w+/g,                                      css: 'variable'},  // symbols
 		{ regex: new RegExp(this.getKeywords(keywords), 'gm'), css: 'keyword' }   // reserved words
 	];
 };
